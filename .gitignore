@@ -1,7 +1,7 @@
 yarn.lock
 
 *.iml
-.vcode/
+.vscode/
 .idea/
 
 src/gen-src/
