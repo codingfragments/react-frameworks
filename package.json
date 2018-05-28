@@ -6,17 +6,29 @@
     "@coreui/coreui": "^2.0.1",
     "@coreui/icons": "^0.2.0",
     "@coreui/react": "^2.0.0",
+    "@types/prettier": "^1.12.4",
     "@types/reactstrap": "^5.0.26",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.2",
+    "prettier": "^1.13.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts-ts": "2.16.0",
     "reactstrap": "^6.0.1"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "precommit": "lint-staged",
+    "pretty": "lint-staged"
   },
   "devDependencies": {
     "@types/jest": "^22.2.3",
