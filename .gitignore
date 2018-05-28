@@ -1,6 +1,10 @@
 yarn.lock
 
-gen-src/
+*.iml
+.vcode/
+.idea/
+
+src/gen-src/
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
