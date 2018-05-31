@@ -3,14 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@coreui/coreui": "^2.0.1",
-    "@coreui/icons": "^0.2.0",
-    "@coreui/react": "^2.0.0",
-    "@types/prettier": "^1.12.4",
-    "@types/react-router": "^4.0.25",
-    "@types/reactstrap": "^5.0.26",
     "flag-icon-css": "^3.0.0",
     "font-awesome": "^4.7.0",
+    "simple-line-icons": "^2.4.1",
     "husky": "^0.14.3",
     "jquery": "^3.3.1",
     "lint-staged": "^7.1.2",
@@ -21,9 +16,7 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router": "^4.2.0",
-    "react-scripts-ts": "2.16.0",
-    "reactstrap": "^6.0.1",
-    "simple-line-icons": "^2.4.1"
+    "react-scripts-ts": "2.16.0"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -44,6 +37,8 @@
     "pretty": "lint-staged"
   },
   "devDependencies": {
+    "@types/prettier": "^1.12.4",
+    "@types/react-router": "^4.0.25",
     "@types/jest": "^22.2.3",
     "@types/node": "^10.1.3",
     "@types/react": "^16.3.14",
