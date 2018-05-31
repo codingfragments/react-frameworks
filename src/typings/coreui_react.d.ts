@@ -23,11 +23,11 @@ declare module '@coreui/react' {
     class AppAside extends React.Component<IAppAsideProps, {}> {
     }
 
-    interface IAsideTogglerProps extends ICoreuiBaseProps {
+    interface IAppAsideTogglerProps extends ICoreuiBaseProps {
         mobile?: boolean;
     }
 
-    class AsideToggler extends React.Component<IAsideTogglerProps, {}> {
+    class AppAsideToggler extends React.Component<IAppAsideTogglerProps, {}> {
     }
 
     /* 
@@ -85,8 +85,8 @@ declare module '@coreui/react' {
      */
     interface IAppNavbarBrandProps extends ICoreuiBaseProps {
         brand ?: any;
-        minimized ?: boolean;
-        full ?: boolean;
+        minimized ?: any;
+        full ?: any;
     }
 
     class AppNavbarBrand extends React.Component<IAppNavbarBrandProps, {}> {
