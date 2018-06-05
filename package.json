@@ -11,6 +11,7 @@
     "prettier": "^1.13.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-fa": "^5.0.0",
     "react-router": "^4.2.0",
     "react-scripts-ts": "2.16.0"
   },
@@ -36,6 +37,7 @@
     "@types/prettier": "^1.12.4",
     "@types/react": "^16.3.14",
     "@types/react-dom": "^16.0.5",
+    "@types/react-fa": "^4.1.4",
     "@types/react-router": "^4.0.25",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
