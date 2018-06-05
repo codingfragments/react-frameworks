@@ -6,7 +6,9 @@ import registerServiceWorker from './registerServiceWorker';
 
 
 // Styles
-import './styles/style.css';
+import './styles/style.less';
+
+
 
 
 
