@@ -9,7 +9,8 @@ module.exports = function override(config, env) {
         rule.loader &&
         typeof rule.loader === 'string' &&
         rule.loader.includes('ts-loader')
-);
+    );
+
 
     tsLoader.options = {
         getCustomTransformers: () => ({
@@ -19,11 +20,13 @@ module.exports = function override(config, env) {
             style: true,
         }) ]
     })
-};
+    };
+
 
     config = rewireLess.withLoaderOptions({
 
        })(config, env);
+
 
     return config;
 }
