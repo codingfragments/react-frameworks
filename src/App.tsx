@@ -2,21 +2,21 @@
 import { Breadcrumb,  Icon, Layout , Menu} from "antd";
 import * as React from 'react';
 // import {Icon} from "react-fa";
-const {Header,Content,Sider} = Layout;
+const {Header,Content,Sider,Footer} = Layout;
 const {SubMenu} = Menu;
 
 // import logo from './logo.svg';
 class App extends React.Component {
   public render() {
     return (
-        <Layout>
+        <Layout id="mainLayout">
             <Header className="header">
                 <div className="logo" />
                 <Menu
                     theme="dark"
                     mode="horizontal"
                     defaultSelectedKeys={['2']}
-                    style={{ lineHeight: '64px' }}
+
                 >
                     <Menu.Item key="1">nav 1</Menu.Item>
                     <Menu.Item key="2">nav 2</Menu.Item>
@@ -60,6 +60,7 @@ class App extends React.Component {
                     <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 280 }}>
                         Content
                     </Content>
+                    <Footer>jj</Footer>
                 </Layout>
             </Layout>
         </Layout>
